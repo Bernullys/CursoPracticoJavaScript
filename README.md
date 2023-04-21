@@ -56,3 +56,11 @@ En consola el navegador indica la linea donde se imprime. Ojo esto sera util par
 
 Observar como se imprime como objeto. Tambien como si se imprime solo un elemento con un metodo, imprimira el valor.
 
+
+
+Clase 12/29
+Escribiendo o modificando (los dos) HTML desde JavaScript
+
+
+Cambiar cosas al HTML desde el JS.
+Algunos ejemplos en el JS de esta clase.
