@@ -63,4 +63,5 @@ Escribiendo o modificando (los dos) HTML desde JavaScript
 
 
 Cambiar cosas al HTML desde el JS.
-Algunos ejemplos en el JS de esta clase.
+Algunos ejemplos en el JS de esta clase. Se pueden crear clases, crear cualquier elemento, eliminar, modificar, etc. En el archivo de la clase se hicieron unos cuantos ejemplitos.
+Peeeeeero la idea de cambiar el HTML desde el JS es para que cuando se interactue en la pagina web el JS tome esa interacción y se reflejen los cambios en el HTML :)
