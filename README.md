@@ -44,7 +44,6 @@ Para conectar JavaScript en el HTML se utiliza la etiqueta script en el HTML. De
 Clase 11/29
 Leyendo HTML desde JavaScript.
 
-
 Lo que se quiere es entrar desde JS a HTML.
 Se usan las funciones: document.get... --- Hay muchas.
 Estas funciones las dan los navegadores, osea que ellos las hicieron.
@@ -61,7 +60,15 @@ Observar como se imprime como objeto. Tambien como si se imprime solo un element
 Clase 12/29
 Escribiendo o modificando (los dos) HTML desde JavaScript
 
-
 Cambiar cosas al HTML desde el JS.
 Algunos ejemplos en el JS de esta clase. Se pueden crear clases, crear cualquier elemento, eliminar, modificar, etc. En el archivo de la clase se hicieron unos cuantos ejemplitos.
 Peeeeeero la idea de cambiar el HTML desde el JS es para que cuando se interactue en la pagina web el JS tome esa interacción y se reflejen los cambios en el HTML :)
+
+
+
+Clase 13/29
+Eventos en JavaScript
+
+Se va a empezar con la interacción de la pagina.
+Una vez ajustado el HTML a lo que queremos hacer, se seleccionan los elementos que queremos escuchar en el JS (como se indico en las clases pasadas).
+
