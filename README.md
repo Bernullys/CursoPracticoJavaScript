@@ -79,3 +79,25 @@ Clase 14/29
 addEventListener
 
 En vez de hacer cambios en el HTML para permitir eventos como en la clase pasada donde en el HTML teniamos el atributo onclick dentro de la etiqueta button, se utiliza solo dentro del JS los addEventListener.
+
+Si hay una etiqueta form: el ultimo boton lo interpreta como si fuera del tipo submit, es decir un boton para enviar el formulario que lo que hace por defecto es cambiar la url.
+Para cambiar esto hay que ponerle un id al form y modificar su comportamiento. Y en cambio de hacer el addEventListener con el id del boton se hace con el id del form. Ademas se le agrega el metodo event.preventDefault
+Otra forma de resolver el problema del form era indicandole al button del html el atributo type="button" porque por defecto trae el atributo type="submit" --- aunque por defecto no se ve.
+
+Algunos de los eventos mas utilizados:
+
+click - Triggered when a user clicks an element.
+submit - Triggered when a user submits a form.
+mouseover - Triggered when a user moves their mouse over an element.
+mouseout - Triggered when a user moves their mouse off an element.
+keydown - Triggered when a user presses a key down.
+keyup - Triggered when a user releases a key.
+load - Triggered when a page or image finishes loading.
+unload - Triggered when a page is unloaded.
+resize - Triggered when the browser window is resized.
+scroll - Triggered when a user scrolls up or down a page.
+focus - Triggered when an element receives focus.
+blur - Triggered when an element loses focus.
+change - Triggered when the value of a form element changes.
+input - Triggered when the value of an input field changes (similar to "change", but fires immediately).
+contextmenu - Triggered when a user right-clicks on an element.
