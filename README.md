@@ -71,4 +71,11 @@ Eventos en JavaScript
 
 Se va a empezar con la interacción de la pagina.
 Una vez ajustado el HTML a lo que queremos hacer, se seleccionan los elementos que queremos escuchar en el JS (como se indico en las clases pasadas).
+Para escuchar elementos en esta clase nos muestran los atributos: onclick y onchange="". Exinten otros pero al parecer depende del elemento. Ojo: esto se hace en el HTML.
 
+
+
+Clase 14/29
+addEventListener
+
+En vez de hacer cambios en el HTML para permitir eventos como en la clase pasada donde en el HTML teniamos el atributo onclick dentro de la etiqueta button, se utiliza solo dentro del JS los addEventListener.
