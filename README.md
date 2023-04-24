@@ -101,3 +101,21 @@ blur - Triggered when an element loses focus.
 change - Triggered when the value of a form element changes.
 input - Triggered when the value of an input field changes (similar to "change", but fires immediately).
 contextmenu - Triggered when a user right-clicks on an element.
+
+
+
+Clase 15/29
+Conectando GitHub a proyectos de JavaScript
+
+Pagina gitignore.io --- si se ponen todas las caracteristicas del proyecto en el buscador, y crea un archivo con todos los archivos que se pueden o deben ignorar.
+
+
+
+Clase 16/29
+Proyectos con JavaScript y GitHub desde cero
+
+
+Clase 17/29
+Fork a proyectos en GitHub
+
+Se hace Fork al repositorio del curso Frontend Developer para empezar a hacerlo funcionar utilizando javaScript
