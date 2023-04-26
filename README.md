@@ -168,6 +168,20 @@ padre.removeChild(hijo);
 Estos son solo algunos ejemplos de los métodos que ofrece el objeto document en JavaScript. Hay muchos más que se pueden explorar y utilizar según las necesidades específicas de cada proyecto.
 
 
+Some properties of DOM objects include:
+
+innerHTML: Gets or sets the HTML content of an element.
+textContent: Gets or sets the text content of an element, excluding any HTML tags.
+tagName: Gets the name of the HTML tag of an element.
+parentNode: Gets the parent node of an element.
+childNodes: Gets a list of child nodes of an element.
+attributes: Gets a list of attributes of an element.
+style: Gets or sets the inline style of an element.
+classList: Gets a list of CSS classes of an element.
+value: Gets or sets the value of a form input element, such as a text box or dropdown list.
+checked: Gets or sets the checked state of a checkbox or radio button input element.
+
+
 
 Clase 15/29
 Conectando GitHub a proyectos de JavaScript
