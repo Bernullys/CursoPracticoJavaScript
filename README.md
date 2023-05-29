@@ -101,3 +101,100 @@ blur - Triggered when an element loses focus.
 change - Triggered when the value of a form element changes.
 input - Triggered when the value of an input field changes (similar to "change", but fires immediately).
 contextmenu - Triggered when a user right-clicks on an element.
+
+
+
+Tipos de document para definir variables de HTML en JS:
+
+document: es el objeto principal que representa el documento HTML cargado en el navegador. Se puede utilizar para acceder y manipular elementos HTML y sus atributos. Por ejemplo, para obtener el valor de un campo de entrada se puede utilizar:
+
+var valor = document.getElementById("miCampo").value;
+
+window.document: es otra forma de acceder al objeto document. Es equivalente a simplemente usar "document". Por ejemplo:
+
+var valor = window.document.getElementById("miCampo").value;
+
+parent.document: se utiliza para acceder al objeto document del marco o iframe padre. Por ejemplo, para obtener el valor de un campo de entrada en un marco secundario:
+
+var valor = parent.document.getElementById("miCampo").value;
+
+frames[x].document: se utiliza para acceder al objeto document de un marco o iframe específico. "x" es el índice del marco o iframe, comenzando desde cero. Por ejemplo, para obtener el valor de un campo de entrada en el segundo marco:
+
+var valor = frames[1].document.getElementById("miCampo").value;
+
+Es importante recordar que estos métodos solo deben ser utilizados si es necesario acceder a elementos en otros documentos o marcos. En general, se recomienda utilizar el objeto document directamente para acceder y manipular elementos HTML.
+
+
+Algunos Metodos de document:
+
+En JavaScript, el objeto document ofrece varios métodos para manipular elementos HTML y su contenido. Algunos de los métodos más comunes son:
+
+getElementById(): devuelve un elemento HTML con el identificador especificado. Por ejemplo:
+
+var elemento = document.getElementById("miElemento");
+
+getElementsByTagName(): devuelve una lista de elementos HTML con el nombre de etiqueta especificado. Por ejemplo:
+
+var elementos = document.getElementsByTagName("p");
+
+getElementsByClassName(): devuelve una lista de elementos HTML con la clase especificada. Por ejemplo:
+
+var elementos = document.getElementsByClassName("miClase");
+
+querySelector(): devuelve el primer elemento HTML que coincide con el selector especificado. Por ejemplo:
+
+var elemento = document.querySelector("#miElemento .miClase");
+
+querySelectorAll(): devuelve una lista de elementos HTML que coinciden con el selector especificado. Por ejemplo:
+
+var elementos = document.querySelectorAll("p.miClase");
+
+createElement(): crea un nuevo elemento HTML con el nombre de etiqueta especificado. Por ejemplo:
+
+var nuevoElemento = document.createElement("div");
+
+appendChild(): agrega un nuevo elemento HTML como hijo del elemento especificado. Por ejemplo:
+
+var padre = document.getElementById("miPadre");
+
+padre.appendChild(nuevoElemento);
+removeChild(): elimina un elemento HTML hijo del elemento especificado. Por ejemplo:
+
+var padre = document.getElementById("miPadre");
+var hijo = document.getElementById("miHijo");
+padre.removeChild(hijo);
+
+
+Estos son solo algunos ejemplos de los métodos que ofrece el objeto document en JavaScript. Hay muchos más que se pueden explorar y utilizar según las necesidades específicas de cada proyecto.
+
+
+Some properties of DOM objects include:
+
+innerHTML: Gets or sets the HTML content of an element.
+textContent: Gets or sets the text content of an element, excluding any HTML tags.
+tagName: Gets the name of the HTML tag of an element.
+parentNode: Gets the parent node of an element.
+childNodes: Gets a list of child nodes of an element.
+attributes: Gets a list of attributes of an element.
+style: Gets or sets the inline style of an element.
+classList: Gets a list of CSS classes of an element.
+value: Gets or sets the value of a form input element, such as a text box or dropdown list.
+checked: Gets or sets the checked state of a checkbox or radio button input element.
+
+
+
+Clase 15/29
+Conectando GitHub a proyectos de JavaScript
+
+Pagina gitignore.io --- si se ponen todas las caracteristicas del proyecto en el buscador, y crea un archivo con todos los archivos que se pueden o deben ignorar.
+
+
+
+Clase 16/29
+Proyectos con JavaScript y GitHub desde cero
+
+
+Clase 17/29
+Fork a proyectos en GitHub
+
+Se hace Fork al repositorio del curso Frontend Developer para empezar a hacerlo funcionar utilizando javaScript
